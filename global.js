@@ -9,11 +9,11 @@ module.exports = {
         database: 'qldd'
     },
     db_postgres: {
-        host: 'ec2-23-23-216-40.compute-1.amazonaws.com',
-        user: 'cjgmzlabuhqtfi',
-        password: 'd622e3da2a297c8ace6627c86463b44033c60f0c501ab16a545521d0b23cacf3',
+        host: 'ec2-174-129-254-226.compute-1.amazonaws.com',
+        user: 'piwlifvzumgied',
+        password: '3fed8b4c107482a887c8219eecfc87f9f4e4c233e332a7af92f3d0fcb14f5658',
         port:'5432',
-        database: 'depna5rf8ertn0'
+        database: 'dfrd9digvojo9'
     },
     //db_postgres: {
     //    host: 'localhost',
