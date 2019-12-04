@@ -1362,6 +1362,8 @@ var seeding_postgres = function(res) {
 
 var insert_admin = [
     ['Super', 'Admin', 'admin@fit.hcmus.edu.vn', '01228718705', bcrypt.hashSync('admin', 10), 4], //1
+    ['Quoc','Phong','qphonghcmus@fit.hcmus.edu.vn','0123456789','123456',4], // them 1 admin
+    ['Trung','Nghia','tnghiahcmus@fit.hcmus.edu.vn','0123456789','123456',2], // them 1 user
 ];
 var seeding_admin = function(res) {
     pool_postgres.connect(function(error, connection, done) {
